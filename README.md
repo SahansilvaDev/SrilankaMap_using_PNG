@@ -1,2 +1,2 @@
-# SrilankaMap_using_PNG
-Sri Lanka Map and districts details can to view using srilanka image clicking
+# SrilankaMap_using_SVG
+Sri Lanka Map SVG
