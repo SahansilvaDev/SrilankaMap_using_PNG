@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(74, 186, 234);
+}
+
+.mapdiv{
+    width:28%;
+    margin: auto;
+}
+
+.mapdiv path {
+
+    stroke: #000000;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+.title {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #040244; 
+    margin-top: 10px; 
+}
+
+
+/* colors for each circle */
+#LK53 {
+    fill: #ad9603; /* Trincomalee */
+}
+
+#LK45 {
+    fill: #71a9ea; /* Mulativ */
+}
+
+#LK41 {
+    fill: #616060; /* Yāpanaya */
+}
+
+#LK42 {
+    fill: #9c0707; /* Kilinŏchchi */
+}
+
+#LK43 {
+    fill: #ce00e9; /* Mannārama */
+}
+
+#LK62 {
+    fill: #083e18; /* Puttalama */
+}
+
+#LK12 {
+    fill: #f92b40; /* Gampaha */
+}
+
+#LK11 {
+    fill: #f1ff33; /* Colombo */
+}
+
+#LK13 {
+    fill: #0071a5; /* Kaḷutara */
+}
+
+#LK31 {
+    fill: #4e33ff; /* Gālla */
+}
+
+#LK32 {
+    fill: #9cc54c; /* Mātara */
+}
+
+#LK33 {
+    fill: #a50eb3; /* Hambantŏṭa */
+}
+
+#LK52 {
+    fill: #13896e; /* Ampāra */
+}
+
+#LK51 {
+    fill: #33B5FF; /* Maḍakalapuva */
+}
+
+#LK91 {
+    fill: #FFC433; /* Ratnapura */
+}
+
+#LK82 {
+    fill: #ff7b00; /* Mŏṇarāgala */
+}
+
+#LK92 {
+    fill: #33B533; /* Kægalla */
+}
+
+#LK81 {
+    fill: #5c8334; /* Badulla */
+}
+
+#LK22 {
+    fill: #33FF33; /* Mātale */
+}
+
+#LK72 {
+    fill: #7c3608; /* Pŏḷŏnnaruva */
+}
+
+#LK61 {
+    fill: #B8FF33; /* Kuruṇægala */
+}
+
+#LK71 {
+    fill: #B5FF8C; /* Anurādhapura */
+}
+
+#LK23 {
+    fill: #FF5733; /* Nuvara Ĕliya */
+}
+
+#LK44 {
+    fill: #3378FF; /* Vavuniyāva */
+}
+
+#LK21 {
+    fill: #FF33FF; /* Mahanuvara */
+}
+
+
+/* Hover effect for each circle */
+#LK53:hover,
+#LK45:hover,
+#LK41:hover,
+#LK42:hover,
+#LK43:hover,
+#LK62:hover,
+#LK12:hover,
+#LK11:hover,
+#LK13:hover,
+#LK31:hover,
+#LK32:hover,
+#LK33:hover,
+#LK52:hover,
+#LK51:hover,
+#LK91:hover,
+#LK82:hover,
+#LK92:hover,
+#LK81:hover,
+#LK22:hover,
+#LK72:hover,
+#LK61:hover,
+#LK71:hover,
+#LK23:hover,
+#LK44:hover,
+#LK21:hover {
+    fill: white; /* Change fill to white on hover */
+}
